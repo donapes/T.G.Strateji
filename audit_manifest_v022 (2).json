@@ -1,0 +1,77 @@
+{
+  "validator_tests": {
+    "valid": {
+      "expected_pass": true,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": false
+    },
+    "empty_id": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "duplicate": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "bad_role": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "bad_class": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "bad_engine": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "c_faithful": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "pending_faithful": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "bad_timestamp": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "missing_source": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    },
+    "missing_quote": {
+      "expected_pass": false,
+      "actual_pass": false,
+      "error": "row 2: invalid role",
+      "correct": true
+    }
+  },
+  "all_correct": false,
+  "tests": 11,
+  "sha256": {
+    "source_usage_map_v022.csv": "30ef1f67d8c7680bd7522b58de73dcd3cb1ccec7230d217b106468ef0701cf04",
+    "source_usage_map_v022.md": "0a3d4c0f6fe8948cae72e3b09de19af8d21636fa977aa1cd168b4159798a1d03",
+    "validate_source_map.py": "cf0a515cc7dd4d5ff90e0ae1d602de2a479f9b20df9917c935895cf43e88ad48"
+  }
+}

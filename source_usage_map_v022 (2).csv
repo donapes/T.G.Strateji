@@ -1,0 +1,9 @@
+rule_id,asset,timeframe,indicator,usage_context,proposed_decision_role,source_video,source_timestamp,source_quote,class,engine,status,verification_notes
+BIST_MA610_CONTEXT,BIST,1D,MA610,Fiyatın MA610 ile ilişkisi,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,Fiyat seviyesi 610 ile karıştırılmamalı; kapanış MA610 ile karşılaştırılmalı.
+BIST_MA_SEQUENCE,BIST,1D,"MA5, MA21, MA34, MA55, MA89, MA144, MA233, MA377, MA610",Ortalama dizilimi ve trend bağlamı,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,Hangi MA'lerin hangi sırada ve hangi koşulda kullanıldığı ayrı ayrı doğrulanmalı.
+BIST_ATR_USAGE,BIST,1D,ATR,Volatilite / mesafe ölçümü bağlamı,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,SMA-ATR mi Wilder-ATR mi olduğu ve periyot doğrulanmalı.
+BIST_RSI_USAGE,BIST,1D,RSI,Momentum bağlamı,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,"Periyot, aşırı alım/satım eşiği ve karar rolü doğrulanmalı."
+BIST_MACD_USAGE,BIST,1D,MACD,Momentum teyidi bağlamı,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,"EMA başlangıcı, sinyal periyodu ve karar rolü doğrulanmalı."
+BTC_PRICE_THRESHOLD,BTC,UNKNOWN,Fiyat,Belirli bir tarih/bağlamdaki fiyat eşiği,NO_AUTOMATIC_RULE,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,75.000 değeri zamandan ve zaman diliminden bağımsız işlem koşuluna çevrilemez.
+GOLD_PRICE_THRESHOLD,GOLD,UNKNOWN,Fiyat,Belirli bir tarih/bağlamdaki fiyat eşiği,NO_AUTOMATIC_RULE,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,4.150 değeri yalnızca kaynak bağlamında yorumlanmalı.
+BRENT_MACRO_CONTEXT,BRENT,UNKNOWN,Fiyat,BIST için makro bağlam değişkeni,CONTEXT_ONLY,PENDING,PENDING,PENDING,B,FAITHFUL_PENDING,UNVERIFIED,Brent'in kendi AL/SAT sinyali ile BIST üzerindeki etkisi ayrı tutulmalı.

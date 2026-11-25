@@ -1,0 +1,14 @@
+{
+  "files": [
+    "source_usage_map_v022.csv",
+    "source_usage_map_v022.md",
+    "validate_source_map.py"
+  ],
+  "verified_rules": 0,
+  "unverified_rules": 8,
+  "sha256": {
+    "source_usage_map_v022.csv": "30ef1f67d8c7680bd7522b58de73dcd3cb1ccec7230d217b106468ef0701cf04",
+    "source_usage_map_v022.md": "a77ef6e2e7db798735c1bd353a6c14dae4fca72177d5169ea94112c5b9c3aa76",
+    "validate_source_map.py": "b2727ec36fdb636942ab0293ebd6936541f2fe04061ce35f04ffb99d578be741"
+  }
+}
